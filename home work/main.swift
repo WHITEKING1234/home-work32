@@ -59,31 +59,25 @@ print("Ваше цена")
 print("Спасибо за покупку всего доброго!")
 
 
-//
-//var Bishkek
-//let bi = "В бишкеке 25 градусо"
-//var Oh
-//let ji =  "В оше Как всегда Жарко 30 градусов"
-//func seson(gorod:String){
-//    if gorod == Bishkek{
-//        print(bi)
-//
-//    }else if == Oh{
-//        print(ji)
-
 
 print("Также У В нащем магазине ты можешь преобристи колькулятор")
 print("Можешь поробывать")
 var plus1 = "+"
+var minus = "-"
 func magaz2(A1:Int,B2:Int,C3:String){
     if C3 == plus1{
         print(A1+B2)
+    }else if C3 == minus{
+        print(A1-B2)
     }else{
         print("Error girl")
     }
 }
-let A1 = readLine()!
-let B2 = readLine()!
-print("Напиши знак + пж")
-let C3 = readLine()!
-magaz2(A1: Int(A1) ?? 0, B2: Int(B2) ?? 0, C3: String(C3))
+    
+    let A1 = readLine()!
+    let B2 = readLine()!
+    print("Напиши знак + либо -")
+    let C3 = readLine()!
+    magaz2(A1: Int(A1) ?? 0, B2: Int(B2) ?? 0, C3: String(C3))
+
+
